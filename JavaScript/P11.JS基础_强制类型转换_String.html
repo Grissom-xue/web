@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>强制类型转换</title>
+</head>
+<body>
+
+<script type="text/javascript" >
+
+    /**
+     * 强制类型转换：
+     *
+     */
+
+    /**
+     * 将其他类型的数据转换为String
+     * 方式1：
+     *      调用被转换数据类型的toString（）方法，
+     *      该方法不会影响到原变量，它会返回转换的结果返回
+     *      但是要注意： null和Undefined 是没有toString方法的, 调用之后会报错
+     * 方式2：
+     *      调用String() 方法，原变量作为该方法的参数
+     *      null和Undefined 也会被转换为字符串
+     */
+
+    var  a = 123
+
+    a = a.toString();
+
+    a = String(a);
+
+    var b = null;
+    b = String(b)
+</script>
+</body>
+</html>
