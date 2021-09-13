@@ -1,0 +1,16 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># 前端自学系列\n### JS基础课 https://www.bilibili.com/video/BV1YW411T7GX?p=15&spm_id_from=pageDriver\nday 01  P1-P15\nday 02  P16\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision c1be0e12fc0f73136b8e977b81caf91af388740b)
++++ b/README.md	(date 1631512307381)
+@@ -1,4 +1,4 @@
+ # 前端自学系列
+ ### JS基础课 https://www.bilibili.com/video/BV1YW411T7GX?p=15&spm_id_from=pageDriver
+ day 01  P1-P15
+-day 02  P16
++day 02  P16-P20
