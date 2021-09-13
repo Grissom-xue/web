@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自增++自减--</title>
+</head>
+<body>
+
+<script>
+
+    var a = 1;
+    a++ // 此时a变成了2
+    /**
+     *  自增自减 有两种  ++a 和 a++
+     *  理解： ++a 是先自增1 然后进行其他运算    a++ 先进行其他操作 然后进行a++
+     *
+     *
+     */
+
+    var  b = 20;
+    // 仔细理解下面这道题 答案64
+    var result = b++ + ++b + b;
+    // b=20
+    b = b++
+
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>逻辑运算符</title>
+</head>
+<body>
+<script>
+    /**
+     * 逻辑运算符：与或非
+     * && ：符号两侧的值都为true 此时结果为true  短路与，前面一个值已经能判断出结果之后 第二个值就不进行运算
+     * || ：符号两侧的值都为false，此时结果为false 短路或 第一个值是TRUE之后后面的不进行运算
+     * ！ ： 对一个布尔值取反操作
+     *
+     * 任何非布尔值进行逻辑原运算都会将值先转为布尔值
+     */
+
+    var reslut = true && true
+    reslut = true && false
+    reslut = false && false
+</script>
+</body>
+</html>
