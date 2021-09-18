@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相等运算符</title>
+</head>
+<body>
+
+<script>
+    /**
+     *  ==
+     *  当使用== 做相等比较的时候，会自动转换类型，转成相同类型之后进行比较
+     *
+     *  undefined 是衍生与null   做==比较的时候会返回true
+     *
+     *  NaN 不和任何值相等，包括自己本身
+     *
+     *  ！=
+     *
+     *
+     *  === 表示全等 判断两个值是否全等，不会做自动类型转换
+     *
+     *  ！==
+     */
+
+
+    var a = 3
+    console.log("1" == 1)//true
+    console.log(NaN == NaN)//false
+    console.log(isNaN(a))// 检查是否是NaN
+</script>
+</body>
+</html>
