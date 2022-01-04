@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>流程控制语句</title>
+</head>
+<body>
+
+<script>
+    /**
+     * break 关键字可以用来退出Switch和循环语句， 不能在if语句中使用
+     *
+     * 嵌套的循环语句的时候 使用break 外层名 来直接退出外层
+     */
+
+    console.time("test")
+    outer:
+    for (var i =0;i<100;i++){
+        for (var j=0;j<100;j++){
+            console.log("hello")
+            break outer;
+        }
+    }
+    console.timeEnd("test")
+
+
+</script>
+</body>
+</html>
